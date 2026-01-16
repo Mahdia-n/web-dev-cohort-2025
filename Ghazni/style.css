@@ -182,4 +182,41 @@ main .hero {
 }
 /* about section ends */
 
+/* pages section start */
+.pages {
+  background-color: #2fa36b;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-between; */
+  gap: 1.7rem;
+  align-items: center;
+}
+
+.pages .image-size img {
+  width: 23rem;
+  height: 15rem;
+}
+
+.pages .image-size .par {
+  font-size: 18px;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+}
+.bun {
+  font-size: 18px;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  position: relative;
+  left: 6.2rem;
+}
+/* pages section ends*/
 /* Roina css codes end */
