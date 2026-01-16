@@ -20,9 +20,9 @@
 
 body {
   font-family: Arial, sans-serif;
-  /* background-color: #f4f4f4; */
+  /* background-color: #2fa36b; */
   /* color: #333; */
-  width: 100vw;
+  width: 90vw;
   height: 100vh;
 }
 
@@ -294,7 +294,7 @@ main .hero {
   left: 2.2rem;
   margin-top: 2.5rem;
   padding: 0.6rem 2rem;
-  /* font-size: 1.2rem; */
+  font-size: 1.2rem;
   color: var(--eight-color);
   background-color: var(--fourth-color);
   border: none;
@@ -307,7 +307,39 @@ main .hero {
   color: var(--eight-color);
   padding: 0.8rem 2.5rem;
   transition: 0.3s;
+  font-size: 1.1rem;
 }
 /* update section ends */
+
+/* footer start */
+
+footer {
+  background-color: var(--third-color);
+  display: flex;
+  justify-content: space-around;
+  width: 100vw;
+  height: 25vh;
+}
+footer .copy {
+  margin-top: 2px;
+}
+footer .copy h2 .font {
+  /* margin-top: 10px; */
+  font-family: cursive;
+}
+.links .logo {
+  color: #0b1f3b;
+  position: relative;
+  left: 4.7rem;
+}
+
+footer .links a,
+p {
+  text-decoration: none;
+  padding: 0 0.5rem;
+  font-size: 1.6rem;
+  font-family: "Times New Roman", Times, serif;
+}
+/* footer ends */
 
 /* Roina css codes end */
