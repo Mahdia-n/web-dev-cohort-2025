@@ -322,9 +322,13 @@ footer {
 }
 footer .copy {
   margin-top: 2px;
+  font-family: "Times New Roman", Times, serif;
+  margin-top: 20px;
+  font-size: 1.3rem;
 }
-footer .copy h2 .font {
-  /* margin-top: 10px; */
+footer .copy h3 .font {
+  color: var(--fourth-color);
+  font-size: 2rem;
   font-family: cursive;
 }
 .links .logo {
