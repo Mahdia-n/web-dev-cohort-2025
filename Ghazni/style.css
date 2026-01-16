@@ -184,7 +184,7 @@ main .hero {
 
 /* pages section start */
 .pages {
-  background-color: #2fa36b;
+  background-color: var(--third-color);
   width: 100vw;
   height: 100vh;
   display: flex;
@@ -204,19 +204,110 @@ main .hero {
 .pages .image-size img {
   width: 23rem;
   height: 15rem;
+  box-shadow: 2px 6px 10px var(--secondary-color);
+  border-radius: 0.4rem;
+}
+.pages .image-size img:hover {
+  transform: scale(1.05);
+  transition: 0.3s;
+  border-radius: 0.2rem;
+  filter: brightness(1.2);
 }
 
 .pages .image-size .par {
   font-size: 18px;
   font-family: "Times New Roman", Times, serif;
   text-align: center;
+  width: 20rem;
+  margin-top: 14px;
 }
 .bun {
-  font-size: 18px;
   font-family: "Times New Roman", Times, serif;
   text-align: center;
   position: relative;
-  left: 6.2rem;
+  left: 5.5rem;
+  margin-top: 14px;
+  padding: 0.6rem 2rem;
+  font-size: 1.2rem;
+  color: var(--eight-color);
+  background-color: var(--fourth-color);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.bun:hover {
+  background-color: var(--tenth-color);
+  color: var(--eight-color);
+  padding: 0.8rem 2.5rem;
+  transition: 0.3s;
 }
 /* pages section ends*/
+
+/* update section start */
+
+.update {
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../Ghazni/images/غزنی/cave-town-zelve-valley-cappadocia-turkey.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: center;
+}
+.update .update-container {
+  width: 70vw;
+  height: 75vh;
+  background: linear-gradient(
+    rgba(159, 157, 157, 0.4),
+    rgba(164, 162, 162, 0.4)
+  );
+  position: relative;
+  top: 5rem;
+  left: 6rem;
+}
+
+.update .update-container h1 {
+  color: var(--eight-color);
+  position: relative;
+  top: 0.4rem;
+  left: 2.2rem;
+}
+.update .update-container p {
+  width: 55vw;
+  color: var(--eight-color);
+  font-size: 1.2rem;
+  font-family: "Times New Roman", Times, serif;
+  text-wrap: wrap;
+  position: relative;
+  top: 1rem;
+  left: 2rem;
+  display: flex;
+}
+
+.update .update-container .btnn {
+  width: 12rem;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  position: relative;
+  left: 2.2rem;
+  margin-top: 2.5rem;
+  padding: 0.6rem 2rem;
+  /* font-size: 1.2rem; */
+  color: var(--eight-color);
+  background-color: var(--fourth-color);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.update .update-container .btnn:hover {
+  background-color: var(--tenth-color);
+  color: var(--eight-color);
+  padding: 0.8rem 2.5rem;
+  transition: 0.3s;
+}
+/* update section ends */
+
 /* Roina css codes end */
