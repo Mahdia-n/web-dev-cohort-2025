@@ -214,3 +214,51 @@ p {
     border-radius: 10px;
     color: white;
 }
+/* section6 */
+.section6 {
+    margin-top: 40px;
+}
+
+.section6 h1 {
+    font-size: 70px;
+}
+
+.section6 .btnWatch {
+    background-color: orange;
+    padding: 5px;
+    width: 230px;
+    color: white;
+    font-size: 25px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+}
+
+/* section7 */
+.section7 {
+    margin-top: 50px
+}
+
+.cont {
+    background-color: white;
+    padding: 20px;
+}
+
+.cont h1 {
+    font-size: 60px;
+    font-weight: bold;
+
+}
+
+.cont p {
+    font-size: 20px;
+}
+
+.cont .row .col img {
+    width: 700px;
+    border-radius: 20px;
+}
+
+.section8 {
+    margin-top: 40px;
+}
