@@ -218,6 +218,8 @@ main .hero-section {
   text-align: center;
   width: 20rem;
   margin-top: 14px;
+  position: relative;
+  left: 1.5rem;
 }
 .bun {
   font-family: "Times New Roman", Times, serif;
